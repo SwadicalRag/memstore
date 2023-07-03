@@ -1,0 +1,16 @@
+{
+  "name": "memstore",
+  "version": "1.0.0",
+  "description": "This repository houses a versatile, object-oriented database model, designed for Node.js. It handles all your database needs with a simple interface, providing an easy-to-use API with a variety of powerful features.",
+  "main": "dist/database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "swadical",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
