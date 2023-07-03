@@ -122,7 +122,7 @@ export class Obj2Obj {
                 }
             }
             else if(obj instanceof Set) {
-                let out = [];
+                let out: EncodedObj[] = [];
 
                 let ref = refs.size;
                 refs.set(obj,ref);
